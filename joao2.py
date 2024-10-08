@@ -146,5 +146,191 @@ linhas usando strigs, pode ser simples ou duplas'''
 
 #mensagem4 = 'ola "mundo"'
 
-#print (mensagem)
+#print (mensagem1)
 
+'''junçao de string'''
+
+#nome= "ana"
+#sobrenome = "silva"
+#nome_completo = nome + " " + sobrenome
+#print(nome_completo)
+
+'''SLINCE'''
+
+#texto = "hello"
+#print(texto[:3]) #SAIDA: HEL
+#print(texto[3:]) #SAIDA: LO
+#print(texto[:4]) #SAIDA: HELL
+#print(texto[2:-1]) #SAIDA: LL
+#print(texto[:-2]) #SAIDA: HEl
+
+"""upper"""
+
+#deixa em maiusculo
+#texto= "python"
+#print(texto.upper())
+#saida: PYTHON
+
+"""capitalize"""
+
+#deixa a primeira letra em maiusculo
+#texto = "python programing"
+#print (texto.capitalize())
+
+"""title"""
+'''deixa as primeiras letras em mausculo'''
+
+#texto = "python programing language"
+#print (texto.title())
+
+"""att 1"""
+#nome = input("digite seu nome: ")
+#sobrenome = input ("digite seu sobrenome: ")
+#nome_completo= nome + " " +sobrenome
+#print(nome_completo)
+
+"""att2"""
+
+#frase= input("escreva uma frase: ")
+#print(frase[:4],len(frase))
+
+"""att3"""
+
+#frase= input("escreva uma frase: ")
+#print(frase.capitalize())
+#print(frase.title())
+#print(frase.upper())
+
+"""......................................"""
+
+"""att1"""
+
+#nota1= float (input("digite sua primeira nota : "))
+#nota2= float (input("digite sua segunda nota: "))
+#nota3= float (input("digite sua terceira nota "))
+#media = (nota1 + nota2 + nota3) / 3
+#print(f"sua media é de: {media}")
+
+''''att2'''
+
+#tempo= int(input("digite um tempo em ninutos: "))
+#segundos = tempo * 60
+#print(f"seu tempo em segundos é {segundos}")
+
+"""att3"""
+
+#tempo= float (input("digite o tempo da viagem: "))
+#distancia= float (input ("digite o distancia percorrida: "))
+#t=tempo/60
+#velocidade_media= distancia/t
+#print(f"o velociade media é de {velocidade_media}")
+
+'''att4'''
+
+#preco= float(input("digite o preço: "))
+#desconto= float(input("qual a porcentagem do desconto: "))
+#porcent_desconto= preco * (desconto/100)
+#final= preco - porcent_desconto
+#print(f"o preco com desconto é de {final}")
+
+"""att5"""
+
+#peso= float(input("digite seu peso: "))
+#altura= float(input("digite sus altura"))
+#imc=peso/(altura*altura)
+#print(f" seu IMC é de {imc}")
+
+
+'''verifica se os dois valores sao iguais'''
+
+#x = 10
+#y = 10
+#z = 11
+#print(x==y)  #true
+#print(x==z)  #false
+
+"""diferente"""
+#x = 10
+#y = 10
+#z = 11
+#print(x!=y)  #false
+#print(x!=z)  #true
+
+'''verificar se é maior'''
+
+#x > 10
+#y > 10
+#z > 11
+#print(x > y)  #false
+#print(z > x)  #true
+
+
+"""inversor"""
+"""retorna false seo resultado for true e true se for false"""
+
+#a = True
+#b = False
+#print(a==b)  #false
+#print(not a==b)  #true
+
+"""ou (or)"""
+
+"""retorna true se uma das afirmaçoes for verdadeiras"""
+
+#x = True
+#y = False
+
+#print(x or y) # true
+
+
+"""e (and)"""
+"""retorna true se ambas as afirmaçoes fores verdadeiras"""
+
+#x = True
+#y = False
+#print( x and y)  # false
+#print (x and x ) #true
+
+
+"""atividades"""
+
+#numero = int(input("digite um numero: "))
+#print(numero<0)
+
+
+"""att2"""
+
+#idade = int(input("Digitte sua idade: "))
+
+#print(f"pode vatar: {idade>=16}")
+#print(f"pode dirigir: {idade>=18}")
+
+"""att3"""
+
+#usuario = input("digite seu usuario: ")
+#senha = int(input("digite sua senha: "))
+
+#print(f"usuario conctado {usuario == "admin" or "user"} senha : {senha == 1234}")
+
+#x = 10
+#if x > 0:
+ #   print("x é positivo")
+#print("fim do programa")   
+
+
+#x=10
+#if x > 0:
+ #   print("x é positivo")
+#elif x ==  0:
+#    print("x= zero") 
+#print("fim programa")  
+
+
+#x = 10 
+
+#if x > 0:
+   # print("x é positivo")
+#elif x == 0:
+    #print("x é zero")
+#else:
+   # print ("x é negativo")        
