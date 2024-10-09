@@ -307,10 +307,10 @@ linhas usando strigs, pode ser simples ou duplas'''
 
 """att3"""
 
-#usuario = input("digite seu usuario: ")
-#senha = int(input("digite sua senha: "))
+usuario = input("digite seu usuario: ")
+senha = int(input("digite sua senha: "))
 
-#print(f"usuario conctado {usuario == "admin" or "user"} senha : {senha == 1234}")
+print(f"usuario conctado {usuario == "admin"  or usuario == "user" and senha == 1234} ")
 
 #x = 10
 #if x > 0:
@@ -334,3 +334,14 @@ linhas usando strigs, pode ser simples ou duplas'''
     #print("x é zero")
 #else:
    # print ("x é negativo")        
+
+"""atividade"""
+
+#media = float(input(" digite sua media: "))
+
+#if media>=7:
+   # print (f"aluno aprovado {media}")
+#elif media>=5:
+   # print(f"aluno deve prestar exame: {media}")    
+#else:
+    #print(f"aluno reprovado: {media}")
